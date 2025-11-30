@@ -1,12 +1,30 @@
 {
     "HomePage": {
         "test-text": "Test text",
-        "title": "My App",
+        "title": "Tulaab Online",
         "welcome": "Welcome to our application!"
     },
     "LanguageSwitch": {
         "switchToArabic": "Switch to Arabic",
         "switchToEnglish": "Switch to English"
+    },
+    "navItems": {
+        "home": "Home",
+        "about": "About",
+        "ourServices": "Services",
+        "services": {
+            "summaries": "Professional and Accurate Summaries",
+            "powerpoint": "Attractive PowerPoint Presentations",
+            "graduation-research": "Outstanding Graduation Research",
+            "assignments": "Comprehensive Academic Assignments",
+            "graduation-projects": "Complete Graduation Projects",
+            "engineering-programming": "Innovative Engineering Designs and Programming Projects",
+            "infographics": "Distinctive Concept Maps and Infographics",
+            "videos": "Creative Videos and Advertisements",
+            "reports": "Certified Reports and Medical Leaves",
+            "cv-design": "Professional Resume Design"
+        },
+        "contact": "Contact Us"
     },
     "LoginForm": {
         "welcomeBack": "Welcome back",
@@ -66,5 +84,6 @@
         "FAILED_TO_UNLINK_LAST_ACCOUNT": "Failed to unlink last account",
         "ACCOUNT_NOT_FOUND": "Account not found",
         "USER_ALREADY_HAS_PASSWORD": "User already has password",
-        "USER_ALREADY_EXISTS_USE_ANOTHER_EMAIL": "User already exists. Use another email."    }
+        "USER_ALREADY_EXISTS_USE_ANOTHER_EMAIL": "User already exists. Use another email."
+    }
 }

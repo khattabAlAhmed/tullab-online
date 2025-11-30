@@ -11,9 +11,9 @@ export default function LanguageSwitch() {
   const pathname = usePathname();
   const params = useParams();
   const t = useTranslations('LanguageSwitch');
-  
+
   const currentLocale = params.locale as string;
-  
+
   const toggleLanguage = () => {
     const newLocale = currentLocale === 'en' ? 'ar' : 'en';
     router.replace(pathname, { locale: newLocale });
@@ -21,11 +21,12 @@ export default function LanguageSwitch() {
 
   return (
     <Button
+      variant={'default'}
       onClick={toggleLanguage}
-      className="cursor-pointer"
+      className="cursor-pointer "
     >
-        <GlobeIcon className="w-4 h-4 me-2" />
-      {currentLocale === 'en' ? 'ع' : 'En'}
+      <GlobeIcon className="w-4 h-4 me-2 dark:text-foreground" />
+      <span className='dark:text-foreground'>{currentLocale === 'en' ? 'ع' : 'En'}</span>
     </Button>
   );
 }

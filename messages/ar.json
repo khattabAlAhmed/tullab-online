@@ -1,12 +1,30 @@
 {
     "HomePage": {
         "test-text": "نص تجريبي",
-        "title": "تطبيقي",
+        "title": "طلاب أونلاين",
         "welcome": "مرحباً بك في تطبيقنا!"
     },
     "LanguageSwitch": {
         "switchToArabic": "التبديل إلى العربية",
         "switchToEnglish": "التبديل إلى الإنجليزية"
+    },
+    "navItems": {
+        "home": "الرئيسية",
+        "about": "من نحن",
+        "ourServices": "خدماتنا",
+        "services": {
+            "summaries": "تلخيصات احترافية ودقيقة",
+            "powerpoint": "عروض باوربوينت جذابة",
+            "graduation-research": "أبحاث تخرج متميزة",
+            "assignments": "واجبات أكاديمية متكاملة",
+            "graduation-projects": "مشاريع تخرج شاملة",
+            "engineering-programming": "تصاميم هندسية مبتكرة ومشاريع برمجية",
+            "infographics": "خرائط مفاهيم وإنفوجرافيك مميزة",
+            "videos": "فيديوهات إبداعية وإعلانات",
+            "reports": "تقارير وإجازات مرضية معتمدة",
+            "cv-design": "تصميم سير ذاتية احترافية"
+        },
+        "contact": "تواصل معنا"
     },
     "LoginForm": {
         "welcomeBack": "مرحباً بعودتك",
@@ -23,7 +41,6 @@
         "termsAndPrivacy": "بالنقر على متابعة، فإنك توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا.",
         "loginSuccess": "تسجيل الدخول بنجاح",
         "loginWithGoogleSuccess": "تسجيل الدخول باستخدام Google بنجاح"
-
     },
     "SignupForm": {
         "createAccount": "إنشاء حسابك",
@@ -67,5 +84,6 @@
         "FAILED_TO_UNLINK_LAST_ACCOUNT": "فشل إلغاء الربط الأخير",
         "ACCOUNT_NOT_FOUND": "الحساب غير موجود",
         "USER_ALREADY_HAS_PASSWORD": "المستخدم لديه كلمة مرور بالفعل",
-        "USER_ALREADY_EXISTS_USE_ANOTHER_EMAIL": "المستخدم موجود بالفعل. استخدم بريد إلكتروني آخر."    }
+        "USER_ALREADY_EXISTS_USE_ANOTHER_EMAIL": "المستخدم موجود بالفعل. استخدم بريد إلكتروني آخر."
+    }
 }
