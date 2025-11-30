@@ -52,6 +52,17 @@
             "requestService": "Request Service"
         }
     },
+    "NoAiSection": {
+        "title": "100% Human-Crafted Excellence",
+        "subtitle": "Zero AI, Maximum Authenticity",
+        "percentage": "0% AI",
+        "turnitin": "Verified by Turnitin",
+        "description": "We take pride in delivering work that is completely free from artificial intelligence. Every project is crafted by human experts, ensuring originality and depth that AI cannot replicate. We provide Turnitin reports to guarantee 0% AI similarity.",
+        "guaranteed": "Guaranteed",
+        "originality": "Originality",
+        "human": "100% Human",
+        "expert": "Expert Writers"
+    },
     "LanguageSwitch": {
         "switchToArabic": "Switch to Arabic",
         "switchToEnglish": "Switch to English"
