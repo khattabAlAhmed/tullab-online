@@ -64,6 +64,14 @@
         "human": "الطاقم",
         "expert": "خبراء مختصين"
     },
+    "OurServicesSection": {
+        "title": "خدماتنا",
+        "subtitle": "حلول أكاديمية شاملة مصممة خصيصاً لك",
+        "notFound": {
+            "title": "لم تجد ما تبحث عنه؟",
+            "button": "تحدث معنا عبر واتساب"
+        }
+    },
     "LanguageSwitch": {
         "switchToArabic": "التبديل إلى العربية",
         "switchToEnglish": "التبديل إلى الإنجليزية"

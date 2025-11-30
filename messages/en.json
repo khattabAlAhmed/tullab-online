@@ -63,6 +63,14 @@
         "human": "100% Human",
         "expert": "Expert Writers"
     },
+    "OurServicesSection": {
+        "title": "Our Services",
+        "subtitle": "Comprehensive Academic Solutions Tailored for You",
+        "notFound": {
+            "title": "Didn't find what you're looking for?",
+            "button": "DM us via WhatsApp"
+        }
+    },
     "LanguageSwitch": {
         "switchToArabic": "Switch to Arabic",
         "switchToEnglish": "Switch to English"

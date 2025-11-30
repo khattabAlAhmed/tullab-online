@@ -47,7 +47,7 @@ const Header = () => {
             <div className="bg-[#0b8eca] text-white py-2 px-4">
                 <div className="container mx-auto flex justify-end items-center">
                     <LanguageSwitch />
-                    <ModeToggler />
+
                 </div>
             </div>
 
@@ -79,7 +79,6 @@ const Header = () => {
                         >
                             <Search className="w-6 h-6" />
                         </button>
-
                     </div>
 
                     {/* Desktop Header */}
@@ -133,12 +132,14 @@ const Header = () => {
                             ))}
                         </nav>
                         {/* Search Icon */}
+
                         <button
                             className="p-2 hover:bg-accent rounded-full transition-colors"
                             aria-label="Search"
                         >
                             <Search className="w-5 h-5" />
                         </button>
+                        <ModeToggler />
 
                     </div>
                 </div>

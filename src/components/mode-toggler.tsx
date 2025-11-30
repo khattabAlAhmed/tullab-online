@@ -18,8 +18,8 @@ export default function ModeToggler() {
   }
 
   return (
-    <Button className="cursor-pointer" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-      {theme === 'dark' ? <SunIcon className="w-4 h-4 dark:text-foreground" /> : <MoonIcon className="w-4 h-4" />}
+    <Button className="cursor-pointer bg-transparent hover:bg-transparent text-foreground hover:text-primary" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
+      {theme === 'dark' ? <SunIcon className="w-4 h-4   " /> : <MoonIcon className="w-4 h-4" />}
     </Button>
   )
 }
