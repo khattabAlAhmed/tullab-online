@@ -68,7 +68,28 @@
         "subtitle": "Comprehensive Academic Solutions Tailored for You",
         "notFound": {
             "title": "Didn't find what you're looking for?",
-            "button": "DM us via WhatsApp"
+            "button": "Chat on WhatsApp"
+        }
+    },
+    "TestimonialsSection": {
+        "title": "What Our Students Say",
+        "subtitle": "Trusted by thousands of students worldwide",
+        "reviews": {
+            "review1": {
+                "name": "Sarah Ahmed",
+                "role": "Master's Student",
+                "text": "The summary service saved me so much time! Highly recommended."
+            },
+            "review2": {
+                "name": "Mohammed Ali",
+                "role": "Engineering Student",
+                "text": "Great help with my graduation project. Professional and on time."
+            },
+            "review3": {
+                "name": "Layla Hassan",
+                "role": "PhD Candidate",
+                "text": "The translation accuracy is impressive. Will definitely use again."
+            }
         }
     },
     "LanguageSwitch": {
