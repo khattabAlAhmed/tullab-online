@@ -4,6 +4,54 @@
         "title": "Tulaab Online",
         "welcome": "Welcome to our application!"
     },
+    "HeroSection": {
+        "slides": {
+            "summaries": {
+                "title": "Professional and Accurate Summaries",
+                "caption": "We provide comprehensive and accurate summaries to help you understand content quickly and efficiently"
+            },
+            "powerpoint": {
+                "title": "Attractive PowerPoint Presentations",
+                "caption": "Designing professional presentations that capture attention and clearly convey your idea"
+            },
+            "graduation-research": {
+                "title": "Outstanding Graduation Research",
+                "caption": "Integrated assistance in preparing graduation research according to the highest academic standards"
+            },
+            "assignments": {
+                "title": "Comprehensive Academic Assignments",
+                "caption": "Accurate and comprehensive solutions for academic assignments in various disciplines"
+            },
+            "graduation-projects": {
+                "title": "Complete Graduation Projects",
+                "caption": "Full support in implementing graduation projects from concept to final delivery"
+            },
+            "engineering-programming": {
+                "title": "Engineering Designs and Programming",
+                "caption": "Innovative solutions in engineering design and programming with the latest technologies"
+            },
+            "infographics": {
+                "title": "Concept Maps and Infographics",
+                "caption": "Distinctive visual designs to simplify information and present it attractively"
+            },
+            "videos": {
+                "title": "Creative Videos and Advertisements",
+                "caption": "Producing professional visual content to enhance your identity and convey your message"
+            },
+            "reports": {
+                "title": "Reports and Medical Leaves",
+                "caption": "Preparing professional and highly documented reports"
+            },
+            "cv-design": {
+                "title": "Professional Resume Design",
+                "caption": "A distinctive resume that highlights your skills and increases your job opportunities"
+            }
+        },
+        "buttons": {
+            "readMore": "Read More",
+            "requestService": "Request Service"
+        }
+    },
     "LanguageSwitch": {
         "switchToArabic": "Switch to Arabic",
         "switchToEnglish": "Switch to English"
