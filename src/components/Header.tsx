@@ -70,7 +70,7 @@ const Header = () => {
                         {/* Logo */}
                         <Link href="/" className="flex-shrink-0 items-center">
                             <div className=" w-auto">
-                                <Image alt='logo' src={'/logo.png'} height={561} width={1345} />
+                                <Image alt='logo' src={'/logo.png'} height={56.1} width={134.5} />
                                 <h1 className="text-lg font-bold text-[#0b8eca]">{t('title')}</h1>
                             </div>
                         </Link>

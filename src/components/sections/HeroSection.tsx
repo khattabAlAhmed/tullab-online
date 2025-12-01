@@ -247,12 +247,14 @@ const HeroSection = () => {
                                     {t('buttons.readMore')}
                                 </span>
                             </Link>
-                            <button className="group relative px-6 py-3 md:px-8 md:py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold text-base md:text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl min-w-[160px] md:min-w-[200px]">
-                                <span className="relative z-10 group-hover:text-gray-900 transition-colors duration-300">
-                                    {t('buttons.requestService')}
-                                </span>
-                                <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
-                            </button>
+                            <Link href={"https://t.me/tulaab_online"}>
+                                <button className="group relative px-6 py-3 md:px-8 md:py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold text-base md:text-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-2xl min-w-[160px] md:min-w-[200px]">
+                                    <span className="relative z-10 group-hover:text-gray-900 transition-colors duration-300">
+                                        {t('buttons.requestService')}
+                                    </span>
+                                    <div className="absolute inset-0 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

@@ -54,7 +54,7 @@ const OurServicesSection = () => {
                                 href={service.route}
                                 className="group relative bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:-translate-y-1 overflow-hidden"
                             >
-                                <div className="absolute top-0 right-0 w-32 h-32 bg-blue-50 dark:bg-blue-900/10 rounded-bl-full -mr-16 -mt-16 transition-transform duration-500 group-hover:scale-150" />
+                                <div className="absolute top-0 end-0 w-32 h-32 bg-blue-50 dark:bg-blue-900/10 rounded-bl-full rounded-br-full -me-16 -mt-16 transition-transform duration-500 group-hover:scale-150" />
 
                                 <div className="relative z-10">
                                     <div className="w-14 h-14 rounded-xl bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-6 group-hover:scale-110 transition-transform duration-300">
@@ -84,7 +84,7 @@ const OurServicesSection = () => {
                         target="_blank"
                         className="group relative bg-green-50 dark:bg-green-900/10 rounded-2xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 border border-green-200 dark:border-green-800 hover:-translate-y-1 overflow-hidden flex flex-col justify-center items-center text-center"
                     >
-                        <div className="absolute top-0 right-0 w-32 h-32 bg-green-100 dark:bg-green-900/20 rounded-bl-full -mr-16 -mt-16 transition-transform duration-500 group-hover:scale-150" />
+                        <div className="absolute top-0 end-0 w-32 h-32 bg-green-100 dark:bg-green-900/20 rounded-bl-full rounded-br-full -me-16 -mt-16 transition-transform duration-500 group-hover:scale-150" />
 
                         <div className="relative z-10 flex flex-col items-center">
                             <div className="w-16 h-16 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center text-green-600 dark:text-green-400 mb-4 group-hover:scale-110 transition-transform duration-300">
