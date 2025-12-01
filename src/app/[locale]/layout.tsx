@@ -45,7 +45,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <body
         className={`${fontClass} antialiased`}
       >
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
 
           <NextIntlClientProvider messages={messages}>
             {children}

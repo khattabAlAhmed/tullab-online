@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import LanguageSwitch from './LanguageSwitch'
 import ModeToggler from './mode-toggler'
 import Link from 'next/link';
@@ -13,6 +13,7 @@ const Header = () => {
     const navItems = useTranslations('navItems');
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+    const locale = useLocale();
 
     const navItemsList = [
         { label: navItems('home'), href: '/', hasChildren: false },
@@ -69,6 +70,7 @@ const Header = () => {
                         {/* Logo */}
                         <Link href="/" className="flex-shrink-0 items-center">
                             <div className=" w-auto">
+                                <Image alt='logo' src={'/logo.png'} height={561} width={1345} />
                                 <h1 className="text-lg font-bold text-[#0b8eca]">{t('title')}</h1>
                             </div>
                         </Link>
@@ -86,7 +88,9 @@ const Header = () => {
                         {/* Logo */}
                         <Link href="/" className="flex-shrink-0">
                             <div className="w-auto">
-                                <h1 className="text-xl font-bold text-[#0b8eca]">{t('title')}</h1>
+                                <Image alt='logo' src={locale === 'ar' ? '/logo.png' : '/logo_english.png'} height={56.1} width={134.5} />
+
+                                {/* <h1 className="text-xl font-bold text-[#0b8eca]">{t('title')}</h1> */}
                             </div>
                         </Link>
                         {/* Navigation */}
