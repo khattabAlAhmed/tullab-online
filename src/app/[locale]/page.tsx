@@ -11,13 +11,13 @@ export default function Home() {
   const t = useTranslations('HomePage');
   return (
     <div>
-      <Header />
       <main>
         <HeroSection />
         <OurServicesSection />
         <NoAiSection />
         <TestimonialsSection />
       </main>
+
     </div>
   );
 }

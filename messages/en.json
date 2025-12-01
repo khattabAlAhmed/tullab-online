@@ -92,6 +92,37 @@
             }
         }
     },
+    "Footer": {
+        "contactUs": {
+            "title": "Contact Us",
+            "phone": "Phone",
+            "email": "Email",
+            "address": "Address"
+        },
+        "usefulLinks": {
+            "title": "Useful Links",
+            "about": "About Us",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "faq": "FAQ"
+        },
+        "services": {
+            "title": "Our Services"
+        },
+        "social": {
+            "title": "Follow Us",
+            "description": "Stay connected with us on social media for the latest updates and academic tips."
+        },
+        "sitemap": {
+            "title": "Sitemap"
+        },
+        "copyright": "© 2025 Tulaab Online. All rights reserved.",
+        "bottomLinks": {
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Use",
+            "cookies": "Cookie Policy"
+        }
+    },
     "LanguageSwitch": {
         "switchToArabic": "Switch to Arabic",
         "switchToEnglish": "Switch to English"

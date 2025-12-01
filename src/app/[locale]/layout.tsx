@@ -8,7 +8,9 @@ import { hasLocale } from 'next-intl';
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/next";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 
 type Props = {
@@ -49,7 +51,9 @@ export default async function LocaleLayout({ children, params }: Props) {
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
 
           <NextIntlClientProvider messages={messages}>
+            <Header />
             {children}
+            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
         <Toaster />
