@@ -192,6 +192,31 @@
             "button": "Contact on WhatsApp"
         }
     },
+    "ContactPage": {
+        "title": "Contact Us",
+        "subtitle": "Get in touch with our team. We're here to help you with your academic needs.",
+        "phone": {
+            "title": "Phone"
+        },
+        "email": {
+            "title": "Email"
+        },
+        "address": {
+            "title": "Address"
+        },
+        "form": {
+            "title": "Send us a Message",
+            "name": "Full Name",
+            "namePlaceholder": "John Doe",
+            "email": "Email Address",
+            "emailPlaceholder": "your@email.com",
+            "subject": "Subject",
+            "subjectPlaceholder": "How can we help you?",
+            "message": "Message",
+            "messagePlaceholder": "Tell us about your project or inquiry...",
+            "submit": "Send Message"
+        }
+    },
     "Footer": {
         "contactUs": {
             "title": "Contact Us",

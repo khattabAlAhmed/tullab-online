@@ -193,6 +193,31 @@
             "button": "تواصل عبر واتساب"
         }
     },
+    "ContactPage": {
+        "title": "تواصل معنا",
+        "subtitle": "تواصل مع فريقنا. نحن هنا لمساعدتك في احتياجاتك الأكاديمية.",
+        "phone": {
+            "title": "الهاتف"
+        },
+        "email": {
+            "title": "البريد الإلكتروني"
+        },
+        "address": {
+            "title": "العنوان"
+        },
+        "form": {
+            "title": "أرسل لنا رسالة",
+            "name": "الاسم الكامل",
+            "namePlaceholder": "أحمد محمد",
+            "email": "عنوان البريد الإلكتروني",
+            "emailPlaceholder": "your@email.com",
+            "subject": "الموضوع",
+            "subjectPlaceholder": "كيف يمكننا مساعدتك؟",
+            "message": "الرسالة",
+            "messagePlaceholder": "أخبرنا عن مشروعك أو استفسارك...",
+            "submit": "إرسال الرسالة"
+        }
+    },
     "Footer": {
         "contactUs": {
             "title": "تواصل معنا",
