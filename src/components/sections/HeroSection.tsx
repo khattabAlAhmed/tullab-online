@@ -203,7 +203,7 @@ const HeroSection = () => {
     const current = slides[currentSlide];
 
     return (
-        <section className="relative w-full h-[calc(100vh-30rem)] overflow-hidden bg-gray-900">
+        <section className="relative w-full h-[calc(100vh-20rem)] overflow-hidden bg-gray-900">
             {/* Background Image */}
             <div
                 ref={imageRef}
