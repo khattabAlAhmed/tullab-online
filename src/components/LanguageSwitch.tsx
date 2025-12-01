@@ -26,7 +26,7 @@ export default function LanguageSwitch() {
       className="cursor-pointer "
     >
       <GlobeIcon className="w-4 h-4 me-2 dark:text-foreground" />
-      <span className='dark:text-foreground'>{currentLocale === 'en' ? 'ع' : 'En'}</span>
+      <span className='dark:text-foreground'>{currentLocale === 'en' ? 'ض' : 'En'}</span>
     </Button>
   );
 }
