@@ -5,6 +5,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/sections/HeroSection";
 import NoAiSection from "@/components/sections/NoAiSection";
 import OurServicesSection from "@/components/sections/OurServicesSection";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
 
 export default function Home() {
   const t = useTranslations('HomePage');
@@ -15,6 +16,7 @@ export default function Home() {
         <HeroSection />
         <OurServicesSection />
         <NoAiSection />
+        <TestimonialsSection />
       </main>
     </div>
   );
