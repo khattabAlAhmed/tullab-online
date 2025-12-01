@@ -58,7 +58,9 @@ const Footer = () => {
         <footer className="bg-[#0b8eca] text-white">
             <div className="container mx-auto px-4 py-12">
                 {/* Social Media Icons */}
-                <div className="flex justify-center gap-4 mb-12 pb-8 border-b border-white/20 flex-wrap">
+                <div className="flex justify-center gap-4 mb-12 pb-8 border-b border-white/20 flex-row items-center">
+                    <div className='h-1 bg-white w-30 z-20' ></div>
+
                     {socialLinks.map((social) => {
                         const Icon = social.icon;
                         return (
@@ -78,6 +80,7 @@ const Footer = () => {
                             </Link>
                         );
                     })}
+                    <div className='h-1 bg-white w-30 z-20' ></div>
                 </div>
 
                 {/* Footer Links Grid */}

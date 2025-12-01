@@ -217,6 +217,47 @@
             "submit": "Send Message"
         }
     },
+    "AboutPage": {
+        "title": "About Us",
+        "subtitle": "Empowering students to achieve academic excellence through professional, human-crafted support.",
+        "story": {
+            "title": "Our Story",
+            "content": "Tulaab Online was founded with a simple mission: to bridge the gap between academic pressure and student success. We understand the challenges students face—tight deadlines, complex assignments, and the need for high-quality research. That's why we built a platform that connects students with expert tutors and writers who provide genuine, non-AI assistance."
+        },
+        "mission": {
+            "title": "Our Mission",
+            "content": "To provide reliable, high-quality, and ethical academic assistance that helps students learn and succeed."
+        },
+        "vision": {
+            "title": "Our Vision",
+            "content": "To be the most trusted partner for students worldwide, known for our commitment to quality, integrity, and student success."
+        },
+        "values": {
+            "title": "Our Core Values",
+            "integrity": {
+                "title": "Integrity",
+                "desc": "We uphold the highest standards of academic integrity."
+            },
+            "quality": {
+                "title": "Quality",
+                "desc": "We deliver excellence in every project."
+            },
+            "reliability": {
+                "title": "Reliability",
+                "desc": "We are always there when you need us."
+            },
+            "humanTouch": {
+                "title": "Human Touch",
+                "desc": "We believe in the power of human expertise over AI."
+            }
+        },
+        "stats": {
+            "students": "Students Helped",
+            "projects": "Projects Completed",
+            "experts": "Expert Writers",
+            "satisfaction": "Satisfaction Rate"
+        }
+    },
     "Footer": {
         "contactUs": {
             "title": "Contact Us",
