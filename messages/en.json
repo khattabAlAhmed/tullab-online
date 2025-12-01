@@ -92,6 +92,106 @@
             }
         }
     },
+    "PrivacyPage": {
+        "title": "Privacy Policy",
+        "lastUpdated": "Last Updated: December 2024",
+        "intro": "At Tulaab Online, we are committed to protecting your privacy and personal information. This Privacy Policy explains how we collect, use, and safeguard your data.",
+        "sections": {
+            "collection": {
+                "title": "Information We Collect",
+                "content": "We collect information you provide directly to us when using our services, including your name, email address, and academic requirements."
+            },
+            "usage": {
+                "title": "How We Use Your Information",
+                "content": "We use your information to provide our services, communicate with you, and improve our platform."
+            },
+            "protection": {
+                "title": "Data Protection",
+                "content": "We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or disclosure."
+            },
+            "contact": {
+                "title": "Contact Us",
+                "content": "If you have questions about this Privacy Policy, please contact us at info@tulaab-online.com"
+            }
+        }
+    },
+    "TermsPage": {
+        "title": "Terms of Service",
+        "lastUpdated": "Last Updated: December 2024",
+        "intro": "Welcome to Tulaab Online. By using our services, you agree to these terms. Please read them carefully.",
+        "sections": {
+            "services": {
+                "title": "Our Services",
+                "content": "Tulaab Online provides academic assistance services including research, writing, and project support."
+            },
+            "usage": {
+                "title": "Acceptable Use",
+                "content": "You agree to use our services only for lawful purposes and in accordance with academic integrity standards."
+            },
+            "payment": {
+                "title": "Payment Terms",
+                "content": "Payment is required before service delivery. We accept various payment methods as listed on our platform."
+            },
+            "liability": {
+                "title": "Limitation of Liability",
+                "content": "Tulaab Online provides services 'as is' and we are not liable for any indirect or consequential damages."
+            }
+        }
+    },
+    "CookiesPage": {
+        "title": "Cookie Policy",
+        "lastUpdated": "Last Updated: December 2024",
+        "intro": "This Cookie Policy explains how Tulaab Online uses cookies and similar technologies.",
+        "sections": {
+            "whatAreCookies": {
+                "title": "What Are Cookies",
+                "content": "Cookies are small text files that are placed on your device when you visit our website to help us provide you with a better experience."
+            },
+            "howWeUse": {
+                "title": "How We Use Cookies",
+                "content": "We use cookies to remember your preferences, analyze site traffic, and improve our services."
+            },
+            "types": {
+                "title": "Types of Cookies",
+                "content": "We use both session cookies (temporary) and persistent cookies (stored on your device) to enhance your experience."
+            },
+            "control": {
+                "title": "Cookie Control",
+                "content": "You can control and manage cookies through your browser settings. Note that disabling cookies may affect site functionality."
+            }
+        }
+    },
+    "FaqPage": {
+        "title": "Frequently Asked Questions",
+        "subtitle": "Find answers to common questions about our services",
+        "questions": {
+            "q1": {
+                "question": "How do I place an order?",
+                "answer": "You can place an order by contacting us through WhatsApp, Telegram, or our contact form. Our team will guide you through the process."
+            },
+            "q2": {
+                "question": "What payment methods do you accept?",
+                "answer": "We accept various payment methods including bank transfers, credit cards, and digital payment platforms."
+            },
+            "q3": {
+                "question": "How long does it take to complete an order?",
+                "answer": "Delivery time depends on the complexity and scope of your project. We will provide you with a timeline when you place your order."
+            },
+            "q4": {
+                "question": "Do you guarantee 0% AI content?",
+                "answer": "Yes! All our work is 100% human-crafted and verified by Turnitin to ensure zero AI-generated content."
+            },
+            "q5": {
+                "question": "Can I request revisions?",
+                "answer": "Yes, we offer revisions to ensure you're completely satisfied with the final deliverable."
+            }
+        },
+        "contactCta": {
+            "title": "Still have questions?",
+            "description": "Can't find the answer you're looking for? Contact our support team.",
+            "button": "Contact on WhatsApp"
+        }
+    },
     "Footer": {
         "contactUs": {
             "title": "Contact Us",
