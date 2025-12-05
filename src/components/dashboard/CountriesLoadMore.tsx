@@ -1,15 +1,29 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useState, useTransition, useEffect } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { getCountries, type Country } from "@/actions/countries";
-import { Loader2 } from "lucide-react";
+import { Loader2, Clock } from "lucide-react";
 
 type CountriesLoadMoreProps = {
     initialCountries: Country[];
     initialHasMore: boolean;
 };
+
+// Helper to get current time in a specific timezone
+function getTimeInTimezone(timezone: string, locale: string): string {
+    try {
+        return new Intl.DateTimeFormat(locale === "ar" ? "ar-EG" : "en-US", {
+            timeZone: timezone,
+            hour: "2-digit",
+            minute: "2-digit",
+            hour12: true,
+        }).format(new Date());
+    } catch {
+        return "--:--";
+    }
+}
 
 export default function CountriesLoadMore({
     initialCountries,
@@ -22,6 +36,15 @@ export default function CountriesLoadMore({
     const [page, setPage] = useState(1);
     const [hasMore, setHasMore] = useState(initialHasMore);
     const [isPending, startTransition] = useTransition();
+    const [currentTime, setCurrentTime] = useState<Date>(new Date());
+
+    // Update time every second
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentTime(new Date());
+        }, 1000);
+        return () => clearInterval(interval);
+    }, []);
 
     const loadMore = () => {
         startTransition(async () => {
@@ -60,6 +83,12 @@ export default function CountriesLoadMore({
                         <div className="mt-2 text-sm text-muted-foreground">
                             <span className="font-medium">{t("timezone")}:</span>{" "}
                             {c.timezone}
+                        </div>
+                        <div className="mt-2 flex items-center gap-2 text-sm font-medium">
+                            <Clock className="h-4 w-4 text-primary" />
+                            <span className="tabular-nums">
+                                {getTimeInTimezone(c.timezone, locale)}
+                            </span>
                         </div>
                     </div>
                 ))}
