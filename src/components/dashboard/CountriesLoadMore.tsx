@@ -29,7 +29,7 @@ export default function CountriesLoadMore({
     initialCountries,
     initialHasMore,
 }: CountriesLoadMoreProps) {
-    const t = useTranslations("dashboard.banksPage");
+    const t = useTranslations("dashboard.countriesPage");
     const locale = useLocale();
 
     const [countries, setCountries] = useState<Country[]>(initialCountries);

@@ -391,7 +391,8 @@
             "specialists": "Specialists",
             "universities": "Universities",
             "payments": "Payments",
-            "banks": "Banks"
+            "banks": "Banks",
+            "countries": "Countries"
         },
         "home": {
             "quickActions": {
@@ -403,6 +404,14 @@
             }
         },
         "banksPage": {
+            "title": "Banks",
+            "subtitle": "Manage banks available in the system",
+            "loadMore": "Load More",
+            "loading": "Loading...",
+            "noBanks": "No banks found",
+            "country": "Country"
+        },
+        "countriesPage": {
             "title": "Countries",
             "subtitle": "Manage countries available in the system",
             "loadMore": "Load More",

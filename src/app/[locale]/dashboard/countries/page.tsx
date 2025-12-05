@@ -1,10 +1,10 @@
 import { getTranslations } from 'next-intl/server';
-import { getBanks } from '@/actions/banks';
-import BanksLoadMore from '@/components/dashboard/BanksLoadMore';
+import { getCountries } from '@/actions/countries';
+import CountriesLoadMore from '@/components/dashboard/CountriesLoadMore';
 
 export default async function BanksPage() {
     const t = await getTranslations('dashboard.banksPage');
-    const { banks, hasMore } = await getBanks(1);
+    const { countries, hasMore } = await getCountries(1);
 
     return (
         <div className="space-y-6">
@@ -13,8 +13,8 @@ export default async function BanksPage() {
                 <p className="text-muted-foreground mt-1">{t('subtitle')}</p>
             </div>
 
-            <BanksLoadMore
-                initialBanks={banks}
+            <CountriesLoadMore
+                initialCountries={countries}
                 initialHasMore={hasMore}
             />
         </div>

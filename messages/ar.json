@@ -392,7 +392,8 @@
             "specialists": "الإخصائيين",
             "universities": "الجامعات",
             "payments": "المدفوعات",
-            "banks": "البنوك"
+            "banks": "البنوك",
+            "countries": "الدول"
         },
         "home": {
             "quickActions": {
@@ -404,6 +405,14 @@
             }
         },
         "banksPage": {
+            "title": "البنوك",
+            "subtitle": "إدارة البنوك المتاحة في النظام",
+            "loadMore": "تحميل المزيد",
+            "loading": "جاري التحميل...",
+            "noBanks": "لا توجد بنوك",
+            "country": "الدولة"
+        },
+        "countriesPage": {
             "title": "الدول",
             "subtitle": "إدارة الدول المتاحة في النظام",
             "loadMore": "تحميل المزيد",
