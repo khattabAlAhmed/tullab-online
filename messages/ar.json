@@ -441,6 +441,16 @@
             "sortByDeadline": "الموعد النهائي",
             "sortByPrice": "السعر",
             "sortByType": "النوع"
+        },
+        "specialistsPage": {
+            "title": "الإخصائيين",
+            "subtitle": "إدارة الإخصائيين المتاحين في النظام",
+            "loadMore": "تحميل المزيد",
+            "loading": "جاري التحميل...",
+            "noSpecialists": "لا يوجد إخصائيين",
+            "sortBy": "ترتيب حسب",
+            "sortByName": "الاسم",
+            "sortBySpecialty": "التخصص"
         }
     }
 }

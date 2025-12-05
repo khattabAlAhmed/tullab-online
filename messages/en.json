@@ -440,6 +440,16 @@
             "sortByDeadline": "Deadline",
             "sortByPrice": "Price",
             "sortByType": "Type"
+        },
+        "specialistsPage": {
+            "title": "Specialists",
+            "subtitle": "Manage specialists available in the system",
+            "loadMore": "Load More",
+            "loading": "Loading...",
+            "noSpecialists": "No specialists found",
+            "sortBy": "Sort by",
+            "sortByName": "Name",
+            "sortBySpecialty": "Specialty"
         }
     }
 }

@@ -11,6 +11,7 @@ import {
     School,
     CreditCard,
     Landmark,
+    Map,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
@@ -30,7 +31,7 @@ const Sidebar = () => {
         { href: '/dashboard/universities', label: t('universities'), icon: School },
         { href: '/dashboard/payments', label: t('payments'), icon: CreditCard },
         { href: '/dashboard/banks', label: t('banks'), icon: Landmark },
-        { href: '/dashboard/countries', label: t('countries'), icon: Landmark },
+        { href: '/dashboard/countries', label: t('countries'), icon: Map },
     ];
 
     return (
