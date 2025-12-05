@@ -371,5 +371,13 @@
         "ACCOUNT_NOT_FOUND": "الحساب غير موجود",
         "USER_ALREADY_HAS_PASSWORD": "المستخدم لديه كلمة مرور بالفعل",
         "USER_ALREADY_EXISTS_USE_ANOTHER_EMAIL": "المستخدم موجود بالفعل. استخدم بريد إلكتروني آخر."
+    },
+    "Auth": {
+        "SignIn": {
+            "title": "تسجيل الدخول - طلاب اونلاين"
+        },
+        "SignUp": {
+            "title": "تسجيل حساب - طلاب اونلاين"
+        }
     }
 }

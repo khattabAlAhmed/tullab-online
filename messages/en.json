@@ -370,5 +370,13 @@
         "ACCOUNT_NOT_FOUND": "Account not found",
         "USER_ALREADY_HAS_PASSWORD": "User already has password",
         "USER_ALREADY_EXISTS_USE_ANOTHER_EMAIL": "User already exists. Use another email."
+    },
+    "Auth": {
+        "SignIn": {
+            "title": "Sign In - Tulaab Online"
+        },
+        "SignUp": {
+            "title": "Sign Up - Tulaab Online"
+        }
     }
 }
