@@ -461,6 +461,18 @@
             "sortByAmount": "Amount",
             "sortByCurrency": "Currency",
             "sortByBank": "Bank"
+        },
+        "studentsPage": {
+            "title": "Students",
+            "subtitle": "Manage all students in the system",
+            "loadMore": "Load More",
+            "loading": "Loading...",
+            "noStudents": "No students found",
+            "sortBy": "Sort by",
+            "sortByName": "Name",
+            "sortByNationality": "Nationality",
+            "sortByStudyIn": "Study Country",
+            "studiesIn": "Studies in"
         }
     }
 }

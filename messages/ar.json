@@ -462,6 +462,18 @@
             "sortByAmount": "المبلغ",
             "sortByCurrency": "العملة",
             "sortByBank": "البنك"
+        },
+        "studentsPage": {
+            "title": "الطلاب",
+            "subtitle": "إدارة جميع الطلاب في النظام",
+            "loadMore": "تحميل المزيد",
+            "loading": "جاري التحميل...",
+            "noStudents": "لا يوجد طلاب",
+            "sortBy": "ترتيب حسب",
+            "sortByName": "الاسم",
+            "sortByNationality": "الجنسية",
+            "sortByStudyIn": "دولة الدراسة",
+            "studiesIn": "يدرس في"
         }
     }
 }
