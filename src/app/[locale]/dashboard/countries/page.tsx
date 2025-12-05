@@ -3,7 +3,7 @@ import { getCountries } from '@/actions/countries';
 import CountriesLoadMore from '@/components/dashboard/CountriesLoadMore';
 
 export default async function BanksPage() {
-    const t = await getTranslations('dashboard.banksPage');
+    const t = await getTranslations('dashboard.countriesPage');
     const { countries, hasMore } = await getCountries(1);
 
     return (

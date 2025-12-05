@@ -420,6 +420,16 @@
             "noCountries": "لا توجد دول",
             "timezone": "المنطقة الزمنية",
             "code": "الرمز"
+        },
+        "universitiesPage": {
+            "title": "الجامعات",
+            "subtitle": "إدارة الجامعات المتاحة في النظام",
+            "loadMore": "تحميل المزيد",
+            "loading": "جاري التحميل...",
+            "noUniversities": "لا توجد جامعات",
+            "sortBy": "ترتيب حسب",
+            "sortByName": "الاسم",
+            "sortByCountry": "الدولة"
         }
     }
 }

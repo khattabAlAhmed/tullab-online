@@ -419,6 +419,16 @@
             "noCountries": "No countries found",
             "timezone": "Timezone",
             "code": "Code"
+        },
+        "universitiesPage": {
+            "title": "Universities",
+            "subtitle": "Manage universities available in the system",
+            "loadMore": "Load More",
+            "loading": "Loading...",
+            "noUniversities": "No universities found",
+            "sortBy": "Sort by",
+            "sortByName": "Name",
+            "sortByCountry": "Country"
         }
     }
 }
