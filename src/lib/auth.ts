@@ -19,7 +19,7 @@ export const auth = betterAuth({
     schema: schema,
   }),
   plugins: [nextCookies()],
-  baseURL: process.env.NODE_ENV === "production" 
-    ? "https://yourdomain.com" 
+  baseURL: process.env.NODE_ENV === "production"
+    ? "https://tulaab.online"
     : "http://localhost:3000"
 });
