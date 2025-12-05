@@ -402,6 +402,15 @@
                 "newPayment": "دفعة جديدة",
                 "newSpecialist": "أخصائي جديد"
             }
+        },
+        "banksPage": {
+            "title": "الدول",
+            "subtitle": "إدارة الدول المتاحة في النظام",
+            "loadMore": "تحميل المزيد",
+            "loading": "جاري التحميل...",
+            "noCountries": "لا توجد دول",
+            "timezone": "المنطقة الزمنية",
+            "code": "الرمز"
         }
     }
 }

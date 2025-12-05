@@ -401,6 +401,15 @@
                 "newPayment": "New Payment",
                 "newSpecialist": "New Specialist"
             }
+        },
+        "banksPage": {
+            "title": "Countries",
+            "subtitle": "Manage countries available in the system",
+            "loadMore": "Load More",
+            "loading": "Loading...",
+            "noCountries": "No countries found",
+            "timezone": "Timezone",
+            "code": "Code"
         }
     }
 }

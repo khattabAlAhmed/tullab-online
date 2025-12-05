@@ -1,10 +1,22 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
+import { getCountries } from '@/actions/countries';
+import CountriesLoadMore from '@/components/dashboard/CountriesLoadMore';
 
-export default function BanksPage() {
-    const t = useTranslations('dashboard.sidebar');
+export default async function BanksPage() {
+    const t = await getTranslations('dashboard.banksPage');
+    const { countries, hasMore } = await getCountries(1);
+
     return (
-        <div className="flex items-center justify-center h-full">
-            <h1 className="text-2xl font-bold">{t('banks')} Placeholder</h1>
+        <div className="space-y-6">
+            <div>
+                <h1 className="text-3xl font-bold tracking-tight">{t('title')}</h1>
+                <p className="text-muted-foreground mt-1">{t('subtitle')}</p>
+            </div>
+
+            <CountriesLoadMore
+                initialCountries={countries}
+                initialHasMore={hasMore}
+            />
         </div>
     );
 }
