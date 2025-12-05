@@ -393,6 +393,15 @@
             "universities": "الجامعات",
             "payments": "المدفوعات",
             "banks": "البنوك"
+        },
+        "home": {
+            "quickActions": {
+                "title": "إجراءات سريعة",
+                "newProject": "مشروع جديد",
+                "newStudent": "طالب جديد",
+                "newPayment": "دفعة جديدة",
+                "newSpecialist": "أخصائي جديد"
+            }
         }
     }
 }

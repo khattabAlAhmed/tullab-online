@@ -392,6 +392,15 @@
             "universities": "Universities",
             "payments": "Payments",
             "banks": "Banks"
+        },
+        "home": {
+            "quickActions": {
+                "title": "Quick Actions",
+                "newProject": "New Project",
+                "newStudent": "New Student",
+                "newPayment": "New Payment",
+                "newSpecialist": "New Specialist"
+            }
         }
     }
 }
