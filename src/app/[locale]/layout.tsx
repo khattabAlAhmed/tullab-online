@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -18,13 +17,7 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
-  return {
-    title: "Tulaab Online",
-    description: "Tulaab Online for Students Services",
-  };
-}
+
 
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
@@ -51,9 +44,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
 
           <NextIntlClientProvider messages={messages}>
-            <Header />
             {children}
-            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
         <Toaster />
