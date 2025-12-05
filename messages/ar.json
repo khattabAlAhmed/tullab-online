@@ -430,6 +430,17 @@
             "sortBy": "ترتيب حسب",
             "sortByName": "الاسم",
             "sortByCountry": "الدولة"
+        },
+        "projectsPage": {
+            "title": "المشاريع",
+            "subtitle": "إدارة جميع المشاريع في النظام",
+            "loadMore": "تحميل المزيد",
+            "loading": "جاري التحميل...",
+            "noProjects": "لا توجد مشاريع",
+            "sortBy": "ترتيب حسب",
+            "sortByDeadline": "الموعد النهائي",
+            "sortByPrice": "السعر",
+            "sortByType": "النوع"
         }
     }
 }

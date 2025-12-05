@@ -429,6 +429,17 @@
             "sortBy": "Sort by",
             "sortByName": "Name",
             "sortByCountry": "Country"
+        },
+        "projectsPage": {
+            "title": "Projects",
+            "subtitle": "Manage all projects in the system",
+            "loadMore": "Load More",
+            "loading": "Loading...",
+            "noProjects": "No projects found",
+            "sortBy": "Sort by",
+            "sortByDeadline": "Deadline",
+            "sortByPrice": "Price",
+            "sortByType": "Type"
         }
     }
 }
