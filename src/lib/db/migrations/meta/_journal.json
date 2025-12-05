@@ -15,6 +15,13 @@
       "when": 1764937719161,
       "tag": "0001_giant_polaris",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1764943971944,
+      "tag": "0002_magical_scorpion",
+      "breakpoints": true
     }
   ]
 }

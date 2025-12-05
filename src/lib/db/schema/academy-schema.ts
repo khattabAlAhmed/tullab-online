@@ -21,6 +21,9 @@ export const university = pgTable("university", {
     id: text("id").primaryKey(),
     nameEn: text("name_en").notNull(),
     nameAr: text("name_ar").notNull(),
+    countryId: text("country_id")
+        .notNull()
+        .references(() => country.id, { onDelete: "cascade" }),
     logoUrl: text("logo_url").default("/assets/university_placeholder.png"),
 });
 
