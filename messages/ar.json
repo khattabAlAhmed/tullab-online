@@ -378,6 +378,21 @@
         },
         "SignUp": {
             "title": "تسجيل حساب - طلاب اونلاين"
+        },
+        "SignOut": {
+            "button": "تسجيل الخروج"
+        }
+    },
+    "dashboard": {
+        "sidebar": {
+            "title": "لوحة التحكم الرئيسية   - طلاب اونلاين",
+            "home": "الرئيسية",
+            "projects": "المشاريع",
+            "students": "الطلاب",
+            "specialists": "الإخصائيين",
+            "universities": "الجامعات",
+            "payments": "المدفوعات",
+            "banks": "البنوك"
         }
     }
 }

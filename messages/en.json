@@ -377,6 +377,21 @@
         },
         "SignUp": {
             "title": "Sign Up - Tulaab Online"
+        },
+        "SignOut": {
+            "button": "Sign Out"
+        }
+    },
+    "dashboard": {
+        "sidebar": {
+            "title": "Tulab Online CMS",
+            "home": "Dashboard",
+            "projects": "Projects",
+            "students": "Students",
+            "specialists": "Specialists",
+            "universities": "Universities",
+            "payments": "Payments",
+            "banks": "Banks"
         }
     }
 }
