@@ -450,6 +450,17 @@
             "sortBy": "Sort by",
             "sortByName": "Name",
             "sortBySpecialty": "Specialty"
+        },
+        "paymentsPage": {
+            "title": "Payments",
+            "subtitle": "Manage all payments in the system",
+            "loadMore": "Load More",
+            "loading": "Loading...",
+            "noPayments": "No payments found",
+            "sortBy": "Sort by",
+            "sortByAmount": "Amount",
+            "sortByCurrency": "Currency",
+            "sortByBank": "Bank"
         }
     }
 }

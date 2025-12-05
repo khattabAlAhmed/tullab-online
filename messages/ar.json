@@ -451,6 +451,17 @@
             "sortBy": "ترتيب حسب",
             "sortByName": "الاسم",
             "sortBySpecialty": "التخصص"
+        },
+        "paymentsPage": {
+            "title": "المدفوعات",
+            "subtitle": "إدارة جميع المدفوعات في النظام",
+            "loadMore": "تحميل المزيد",
+            "loading": "جاري التحميل...",
+            "noPayments": "لا توجد مدفوعات",
+            "sortBy": "ترتيب حسب",
+            "sortByAmount": "المبلغ",
+            "sortByCurrency": "العملة",
+            "sortByBank": "البنك"
         }
     }
 }

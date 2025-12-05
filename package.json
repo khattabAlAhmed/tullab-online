@@ -16,7 +16,8 @@
     "db:seed-banks": "tsx scripts/seed-banks.ts",
     "db:seed-universities": "tsx scripts/seed-universities.ts",
     "db:seed-project-types": "tsx scripts/seed-project-types.ts",
-    "db:seed-specialties": "tsx scripts/seed-specialties.ts"
+    "db:seed-specialties": "tsx scripts/seed-specialties.ts",
+    "db:seed-payment-types": "tsx scripts/seed-payment-types.ts"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
