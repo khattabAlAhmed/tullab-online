@@ -2,9 +2,10 @@
 
 import { useState, useTransition } from "react";
 import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { getStudents, type Student, type StudentSortBy } from "@/actions/students";
-import { Loader2, User, Flag, GraduationCap, Phone, Send, ArrowUpDown } from "lucide-react";
+import { Loader2, User, Flag, GraduationCap, Phone, Send, ArrowUpDown, Plus } from "lucide-react";
 
 type StudentsLoadMoreProps = {
     initialStudents: Student[];
@@ -53,14 +54,34 @@ export default function StudentsLoadMore({
 
     if (students.length === 0) {
         return (
-            <div className="flex items-center justify-center py-12 text-muted-foreground">
-                {t("noStudents")}
+            <div className="space-y-6">
+                <div className="flex justify-end">
+                    <Link href={`/${locale}/dashboard/students/new`}>
+                        <Button>
+                            <Plus className="mr-2 h-4 w-4" />
+                            {t("createNew")}
+                        </Button>
+                    </Link>
+                </div>
+                <div className="flex items-center justify-center py-12 text-muted-foreground">
+                    {t("noStudents")}
+                </div>
             </div>
         );
     }
 
     return (
         <div className="space-y-6">
+            {/* Create New Button */}
+            <div className="flex justify-end">
+                <Link href={`/${locale}/dashboard/students/new`}>
+                    <Button>
+                        <Plus className="mr-2 h-4 w-4" />
+                        {t("createNew")}
+                    </Button>
+                </Link>
+            </div>
+
             {/* Sort Controls */}
             <div className="flex items-center gap-2 flex-wrap">
                 <ArrowUpDown className="h-4 w-4 text-muted-foreground" />

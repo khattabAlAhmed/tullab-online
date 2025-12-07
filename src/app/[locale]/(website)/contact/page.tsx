@@ -29,7 +29,7 @@ export default function ContactPage() {
                                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
                                     {t('phone.title')}
                                 </h3>
-                                <a href="tel:+1234567890" className="text-gray-600 dark:text-gray-400 hover:text-[#0b8eca] transition-colors">
+                                <a href="tel:+967777841140" className="text-gray-600 dark:text-gray-400 hover:text-[#0b8eca] transition-colors">
                                     +123 456 7890
                                 </a>
                             </div>

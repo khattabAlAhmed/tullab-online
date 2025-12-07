@@ -473,7 +473,36 @@
             "sortByName": "الاسم",
             "sortByNationality": "الجنسية",
             "sortByStudyIn": "دولة الدراسة",
-            "studiesIn": "يدرس في"
+            "studiesIn": "يدرس في",
+            "createNew": "إضافة طالب جديد",
+            "form": {
+                "title": "إضافة طالب جديد",
+                "subtitle": "إضافة طالب جديد إلى النظام",
+                "name": "الاسم الكامل",
+                "namePlaceholder": "أدخل اسم الطالب الكامل",
+                "phoneNumber": "رقم الهاتف",
+                "phoneNumberPlaceholder": "+967777841140",
+                "telegramUser": "مستخدم تيليجرام",
+                "telegramUserPlaceholder": "اسم المستخدم",
+                "nationality": "الجنسية",
+                "selectNationality": "اختر الجنسية",
+                "studyIn": "دولة الدراسة",
+                "selectStudyIn": "اختر دولة الدراسة",
+                "university": "الجامعة",
+                "selectUniversity": "اختر الجامعة",
+                "searchCountry": "ابحث عن دولة...",
+                "searchUniversity": "ابحث عن جامعة...",
+                "noCountryFound": "لم يتم العثور على دولة",
+                "noUniversityFound": "لم يتم العثور على جامعة",
+                "selectStudyInFirst": "اختر دولة الدراسة أولاً",
+                "save": "إنشاء الطالب",
+                "saving": "جاري الإنشاء...",
+                "cancel": "إلغاء",
+                "nameRequired": "الاسم مطلوب",
+                "nationalityRequired": "الجنسية مطلوبة",
+                "studyInRequired": "دولة الدراسة مطلوبة",
+                "createError": "فشل في إنشاء الطالب"
+            }
         }
     }
 }

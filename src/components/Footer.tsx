@@ -25,7 +25,7 @@ const Footer = () => {
         { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn', isLucide: true },
         { icon: Instagram, href: 'https://instagram.com', label: 'Instagram', isLucide: true },
         { icon: FaTelegram, href: 'https://t.me/tulaab_online', label: 'Telegram', isLucide: false },
-        { icon: FaWhatsapp, href: 'https://wa.me/1234567890', label: 'WhatsApp', isLucide: false },
+        { icon: FaWhatsapp, href: 'https://wa.me/967777841140', label: 'WhatsApp', isLucide: false },
         { icon: Facebook, href: 'https://facebook.com', label: 'Facebook', isLucide: true },
         { icon: FaDiscord, href: 'https://discord.com', label: 'Discord', isLucide: false },
         { icon: FaReddit, href: 'https://reddit.com', label: 'Reddit', isLucide: false },
@@ -95,7 +95,7 @@ const Footer = () => {
                                 <Phone className="w-5 h-5 mt-0.5 flex-shrink-0" />
                                 <div>
                                     <p className="text-sm font-semibold">{t('contactUs.phone')}</p>
-                                    <a href="tel:+1234567890" className="text-sm hover:underline">
+                                    <a href="tel:+967777841140" className="text-sm hover:underline">
                                         +123 456 7890
                                     </a>
                                 </div>

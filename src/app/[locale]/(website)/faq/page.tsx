@@ -61,7 +61,7 @@ export default function FaqPage() {
                             {t('contactCta.description')}
                         </p>
                         <a
-                            href="https://wa.me/1234567890"
+                            href="https://wa.me/967777841140"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-white text-green-600 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors"

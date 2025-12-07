@@ -38,6 +38,8 @@ export const student = pgTable("student", {
     studyIn: text("study_in")
         .notNull()
         .references(() => country.id, { onDelete: "cascade" }),
+    universityId: text("university_id")
+        .references(() => university.id, { onDelete: "set null" }),
 });
 
 export const specialty = pgTable("specialty", {

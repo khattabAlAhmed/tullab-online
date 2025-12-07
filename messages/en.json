@@ -472,7 +472,36 @@
             "sortByName": "Name",
             "sortByNationality": "Nationality",
             "sortByStudyIn": "Study Country",
-            "studiesIn": "Studies in"
+            "studiesIn": "Studies in",
+            "createNew": "Create New Student",
+            "form": {
+                "title": "Create New Student",
+                "subtitle": "Add a new student to the system",
+                "name": "Full Name",
+                "namePlaceholder": "Enter student's full name",
+                "phoneNumber": "Phone Number",
+                "phoneNumberPlaceholder": "+967777841140",
+                "telegramUser": "Telegram Username",
+                "telegramUserPlaceholder": "username",
+                "nationality": "Nationality",
+                "selectNationality": "Select nationality",
+                "studyIn": "Study Country",
+                "selectStudyIn": "Select study country",
+                "university": "University",
+                "selectUniversity": "Select university",
+                "searchCountry": "Search country...",
+                "searchUniversity": "Search university...",
+                "noCountryFound": "No country found",
+                "noUniversityFound": "No university found",
+                "selectStudyInFirst": "Select study country first",
+                "save": "Create Student",
+                "saving": "Creating...",
+                "cancel": "Cancel",
+                "nameRequired": "Name is required",
+                "nationalityRequired": "Nationality is required",
+                "studyInRequired": "Study country is required",
+                "createError": "Failed to create student"
+            }
         }
     }
 }
